@@ -1,0 +1,86 @@
+
+body {
+   font-family: Verdana, Arial, sans-serif;
+   font-size: smaller;
+   color: #555;
+   width: 100%;
+}
+
+h1 {
+   letter-spacing: 6px;
+   font-size: 1.6em;
+   color: #be7429;
+   font-weight: bold;
+}
+
+.search 
+{
+float:left;
+width:20%;
+
+}
+.searchlabel 
+{
+margin-left: 205%;
+float: left;
+}
+
+.searchlabel td {
+    float: left;
+}
+ 
+
+#complete-table 
+{width: 11.6%;
+margin-left: 37%;
+margin-top:-10px;
+}
+
+h2 {
+   text-align: left;
+   letter-spacing: 6px;
+   font-size: 1.4em;
+   color: #be7429;
+   font-weight: normal;
+   width: 450px;
+}
+
+table {
+   float:left;
+   width: 100%;
+  
+   background-color: #c5e7e0;
+   font-family: sans-serif;
+}
+
+td {
+   padding: 10px;
+}
+
+a {
+  color: #be7429;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.popupBox {
+  position: absolute;
+  left: 140px;
+}
+
+.popupCell {
+   background-color: #fffafa;
+}
+
+.popupCell:hover {
+  background-color: #f5ebe9;
+}
+
+.popupItem {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+}
