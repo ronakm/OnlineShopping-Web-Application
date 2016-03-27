@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+  <servlet>
+        <servlet-name>AutoCompleteServlet</servlet-name>
+        <servlet-class>AutoCompleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoCompleteServlet</servlet-name>
+        <url-pattern>/autocomplete</url-pattern>
+    </servlet-mapping>
+    
+
+	
+	<servlet>
+        <servlet-name>SendEmail</servlet-name>
+        <servlet-class>SendEmail</servlet-class>
+    </servlet>
+ <servlet-mapping>
+        <servlet-name>SendEmail</servlet-name>
+        <url-pattern>/SendEmail</url-pattern>
+    </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>AddUser</servlet-class>
+    </servlet>
+ <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/AddUser</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>LogOutServlet</servlet-name>
+        <servlet-class>LogOutServlet</servlet-class>
+    </servlet>
+ <servlet-mapping>
+        <servlet-name>LogOutServlet</servlet-name>
+        <url-pattern>/LogOutServlet</url-pattern>
+    </servlet-mapping>
+	
+
+	<servlet>
+        <servlet-name>ValidateServlet</servlet-name>
+        <servlet-class>ValidateServlet</servlet-class>
+    </servlet>
+ <servlet-mapping>
+        <servlet-name>ValidateServlet</servlet-name>
+        <url-pattern>/ValidateServlet</url-pattern>
+    </servlet-mapping>
+	
+
+</web-app>
